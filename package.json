@@ -1,26 +1,22 @@
 {
-  "name": "weboee",
-  "version": "0.4.0",
-  "description": "Web app for OEE monitorin on the fly",
+  "name": "WebOEE",
+  "version": "0.2.0",
+  "description": "WebOEE is a training project made to test the possibilities of ECMAScript 6 (ES6) and Node.js However if i feel like it in the future i will add more stuff to it.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node app"	 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "dependencies": {
-	  "express":"*",
-	  "mongoose":"*",
-	  "bcryptjs":"*",
-	  "cors":"*",
-	  "jsonwebtoken":"*",
-	  "body-parser":"*",
-	  "passport":"*",
-	  "passport-jwt":"*"
-  },
-  "repository": {
-	      "type": "git",
-	       "url": "https://github.com/stefanstoilov/weboee"
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "author": "Stefan Stoilov",
-  "license": "MIT"
+  "license": "ISC"
 }
